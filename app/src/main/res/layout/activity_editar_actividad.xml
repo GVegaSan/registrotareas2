@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.montoya.registrotareas.editar_actividad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tveDescripcionE"
+                android:text="Descripción:"/>
+
+            <EditText
+                android:id="@+id/descripcionE"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tveFechaE"
+                android:text="Fecha:"/>
+
+            <EditText
+                android:id="@+id/elegirFechaE"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tveHoraE"
+                android:text="Hora:"/>
+
+            <EditText
+                android:id="@+id/elegirHoraE"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:inputType="time" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tveCompletaE"
+                android:text="Completada:"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbCompletaE"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/btnConfirmarE"
+                android:layout_width="53dp"
+                android:layout_height="52dp"
+                android:src="@drawable/pencil"
+                android:text="Editar" />
+
+            <ImageView
+                android:id="@+id/btnRegresarE"
+                android:layout_width="48dp"
+                android:layout_height="51dp"
+                android:src="@drawable/back"
+                android:text="Atrás"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"/>/>
+
+            <ImageView
+                android:id="@+id/btnEliminarE"
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/trash"
+                android:text="Eliminar" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

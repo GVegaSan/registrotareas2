@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">registroTareas</string>
+
+    <string-array name="arrayPrueba">
+        <item>
+            Tarea 1 03/11/2018
+        </item>
+        <item>
+            Tarea 2 03/12/2018
+        </item>
+    </string-array>
+</resources>
